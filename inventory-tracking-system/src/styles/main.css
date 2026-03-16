@@ -1,0 +1,93 @@
+body{
+background:#0f172a;
+color:#f1f5f9;
+font-family:"Segoe UI",sans-serif;
+margin:0;
+}
+
+.navbar{
+background:#020617;
+padding:18px;
+text-align:center;
+font-size:22px;
+}
+
+.container{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+padding:40px 20px;
+}
+
+.card{
+width:400px;
+background:#1e293b;
+padding:25px ;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+margin-bottom:30px;
+}
+
+input{
+width:100%;
+padding:12px;
+margin:8px 0;
+border-radius:6px;
+border:1px solid #334155;
+background:#0f172a;
+color:white;
+}
+
+input:focus{
+outline:none;
+border:1px solid #3b82f6;
+}
+
+button{
+padding:10px 16px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button[type="submit"]{
+background:#3b82f6;
+color:white;
+width:100%;
+}
+
+.edit-btn{
+background:#f59e0b;
+color:white;
+margin-right:5px;
+}
+
+.delete-btn{
+background:#ef4444;
+color:white;
+}
+
+/* Table */
+
+.table-card{
+width:80%;
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:12px;
+border-bottom:1px solid #334155;
+text-align:left;
+}
+
+th{
+background:#020617;
+}
